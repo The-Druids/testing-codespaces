@@ -6,3 +6,4 @@ exports.default = () => (
 		.pipe(imagemin())
 		.pipe(gulp.dest('./public/images'))
 );
+
